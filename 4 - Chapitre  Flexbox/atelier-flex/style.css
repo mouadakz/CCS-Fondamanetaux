@@ -1,25 +1,29 @@
-body {
-    font-family: Arial, sans-serif;
+*{
     margin: 0;
     padding: 0;
-  }
-  
-  .container {
+}
+header , .section1{
+    height: 60px;
+    background-color: blanchedalmond;
+    padding: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    padding-top: 25px;
+    margin-bottom: 7px;
+}
+.section1{
+    background-color: aqua;
+   
+}
+.section2{
     display: flex;
+    background-color: rgba(0, 0, 255, 0.445);
     justify-content: space-around;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
-  }
-  
-  .box {
-    width: 80px;
-    height: 80px;
-    background-color: #3498db;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    font-size: 1.5rem;
-  }
+
+}.mini-section{
+    background-color: brown;
+    width: 30%;
+    padding: 2px;
+}
