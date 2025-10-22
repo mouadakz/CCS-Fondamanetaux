@@ -1,0 +1,139 @@
+*{  
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: rgb(236, 234, 234);
+    min-height: 100vh;
+    gap: 15px;
+
+}
+header{
+    display: grid;
+    background-color: rgb(35, 34, 34);
+    color: rgb(255, 242, 230);
+    padding: 10px 20px;
+    gap: 15px;
+
+}
+h1{
+    font-size:1,6rem;
+}
+nav a{
+    color: rgb(237, 229, 219);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}nav a:hover{
+    background: rgb(72, 72, 158);
+}
+
+
+main{
+    background: rgb(252, 253, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 20px auto ;
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: repeat(5 ,auto);
+    gap: 15px;
+    width: 90%;
+    max-width: 900px;
+   
+}
+section { display: grid; gap: 25px;
+}
+ h2 {
+  color: #0d7eef;
+  border-left: 4px solid #fc8904;
+  padding-left: 6px;
+}
+
+table { width:100%;  
+
+}
+th, td { padding:8px; text-align:center; }
+
+form { display: grid; gap: 10px; }
+label,textarea,input{
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    padding: 8px;
+}
+button{
+    background: #fa9200;
+    border-radius: 10%;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    color: #0d7eef;
+}button :hover{
+    background: #ccc;
+}
+footer{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(39, 37, 37);
+}
+@media(max-width:600px){
+  header { grid-template-columns:1fr; text-align:center; }
+  nav { justify-content:center; }
+}
+
+
+.ul,.ul2{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 12px;
+  list-style: none;
+}
+
+.ul a {
+  display: block;
+  background: #0d7eef;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.ul a:hover {
+  background: #fc8904;
+}
+.ul2 li{
+  display: block;
+  background: #b0b4b7;
+  color: rgb(12, 12, 12);
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1,6rem; 
+}
+.s1 {
+    display: grid;
+    grid-template-rows: auto  1fr auto;
+    align-items: center;
+    gap: 20px;
+    color: rgb(20, 20, 20);
+}
+
+.s1 img {
+    
+    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+    
+
+}.pp{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1,6rem; 
+}
